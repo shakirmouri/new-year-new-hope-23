@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+}
+.header-content{
+ height: 600px;
+   background-image: url(./images/banner/banner3.png);
+   background-size: cover;
+   position: relative;
+}
+.header-title{
+    position: relative;
+    color: white;
+    top: 120px;
+    left: 800px;
+   
+}
+.header-title h1{
+    font-size: 40px;
+    margin-bottom: 15px;
+    font-weight: 700;
+}
+.header-title h3{
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+.header-title button{
+    padding: 10px;
+    border: 0px ;
+    border-radius: 8px;
+    background-color: white;
+    left: 850px;
+    
+}
