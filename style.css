@@ -26,10 +26,12 @@
     margin-bottom: 10px;
 }
 .header-title button{
+    position: relative;
     padding: 10px;
     border: 0px ;
-    border-radius: 8px;
+    border-radius: 5px;
     background-color: white;
-    left: 850px;
+    left: 160px;
+    color: #005FAC;
     
 }
