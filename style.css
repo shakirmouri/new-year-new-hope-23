@@ -35,3 +35,39 @@
     color: #005FAC;
     
 }
+
+.flexible-container{
+    display: flex;
+    margin-bottom: 70px;
+
+}
+.half-width{
+    width: 50%;
+    padding: 5%;
+}
+.half-width img{
+    width: 80%;
+}
+.half-width h2{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 90px;
+    margin-bottom: 12px;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 40px;
+}
+.half-width h3{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 25px;
+}
+.half-width h4{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 14px;
+}
+.half-width h4 span{
+    color: rgba(23, 225, 140, 1);
+}
