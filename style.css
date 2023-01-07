@@ -52,6 +52,7 @@
 
 }
 
+
 .half-width {
     width: 50%;
     padding: 5%;
@@ -85,6 +86,7 @@
 .half-width h4 span {
     color: rgba(23, 225, 140, 1);
 }
+
 /* bonus Skill starts*/
 .skill-development h1 {
     text-align: center;
@@ -93,13 +95,15 @@
     font-size: 35px;
     line-height: 47px;
 }
-.skill-field{
+
+.skill-field {
     display: flex;
     justify-content: space-between;
     gap: 15px;
 }
-.common-box{
-    width:300px;
+
+.common-box {
+    width: 300px;
     height: 200px;
     padding: 20px;
     border: 1px solid rgb(62, 179, 189);
@@ -107,14 +111,16 @@
     box-shadow: 5px 10px 18px #3c96d6;
     margin: 120px 40px;
     color: #3c96d6;
-    
+
 }
-.common-box h1, h3{
+
+.common-box h1,
+h3 {
     margin: 8px 0px;
 }
 
 /* bonus Skill ends */
- /* my plan starts */
+/* my plan starts */
 
 .my-plan h1 {
     text-align: center;
@@ -123,7 +129,8 @@
     font-size: 35px;
     line-height: 47px;
 }
-.my-plan .plan-tile h1{
+
+.my-plan .plan-tile h1 {
     margin-bottom: 40px;
 }
 
@@ -137,41 +144,49 @@
     margin-right: 60px;
 
 }
-.web-development img{
-   margin-left: 40px;
+
+.web-development img {
+    margin-left: 40px;
 }
-.web-development h1{
+
+.web-development h1 {
     font-weight: 700;
     font-size: 30px;
 }
-.web-development h4{
+
+.web-development h4 {
     color: rgba(115, 114, 114, 1);
     margin-left: 40px;
 }
+
 /* js */
-.java-script img{
+.java-script img {
     margin-left: 40px;
 }
-.java-script h1{
+
+.java-script h1 {
     font-weight: 700;
     font-size: 30px;
     margin-left: 20px;
 }
-.java-script h4{
+
+.java-script h4 {
     color: rgba(115, 114, 114, 1);
     margin-left: 40px;
 }
 
 /* Smoke-habit */
-.smoke-habit img{
+.smoke-habit img {
     margin-left: 40px;
 }
-.smoke-habit h1{
+
+.smoke-habit h1 {
     font-weight: 700;
     font-size: 30px;
     margin-left: 20px;
 }
-.smoke-habit h4{
+
+.smoke-habit h4 {
     color: rgba(115, 114, 114, 1);
     margin-left: 40px;
 }
@@ -179,100 +194,112 @@
 /* My Plan Ends */
 
 /* E commerce */
-.e-commerce img{
+.e-commerce img {
     margin-left: 40px;
 }
-.e-commerce h1{
+
+.e-commerce h1 {
     font-weight: 700;
     font-size: 30px;
     margin-left: 20px;
 }
-.e-commerce h4{
+
+.e-commerce h4 {
     color: rgba(115, 114, 114, 1);
     margin-left: 40px;
 }
 
 /* contact Section */
-.contact{
+.contact {
     justify-content: center;
     align-items: center;
     display: flex;
     position: relative;
     margin-bottom: 80px;
-    margin-left:70px;
+    height: 300px;
+    width: 1100px;
+    margin-left: 70px;
     margin-right: 70px;
     background: url(./images/watch.png);
     background-size: cover;
 }
-.contact-info{
+
+.contact-info {
     height: 300px;
-    width: 1100px; 
+    width: 1100px;
     border-radius: 8px;
-    background: url(./images/gradient1.png); 
+    background: url(./images/gradient1.png);
 }
+
 .contact-info:after {
-    content:'';
-    position:absolute;
-    left:57px; 
-    top:0;
+    content: '';
+    position: absolute;
+    left: 57px;
+    top: 0;
     height: 300px;
     width: 1100px;
     border-radius: 12px;
-    display:inline-block;
+    display: inline-block;
     /* background: linear-gradient(to left, rgb(10, 123, 228) 0%, rgba(31, 82, 170, 0) 100%); */
-   
-  } 
-  .contact-text{
+
+}
+
+.contact-text {
     position: absolute;
     top: 64px;
     left: 120px;
-    
+
     font-size: 35px;
     font-weight: bolder;
     color: white;
-  }
-  .contact-text button{
+}
+
+.contact-text button {
     padding: 10px;
     border: 0px solid white;
     border-radius: 8px;
     color: rgb(10, 123, 228);
     font-weight: 700;
-  }
-  /* contact Section End */
-  /* footer starts */
-  .footer{
+}
+
+/* contact Section End */
+/* footer starts */
+.footer {
     height: 450px;
     background-color: black;
     color: white;
     display: flex;
     justify-content: space-between;
     padding: 50px 120px;
-   
-    
-  }
-  .footer h1{
+
+
+}
+
+.footer h1 {
     font-weight: 700;
     font-size: 35px;
     line-height: 40px;
     margin-bottom: 20px;
-  }
-  .footer h3{
+}
+
+.footer h3 {
     margin-top: 10px;
     font-weight: 400px;
     font-size: 12px;
     margin-bottom: 20px;
-   
-  }
 
-  .social-media{
+}
+
+.social-media {
     display: flex;
     gap: 20px;
-  }
+}
 
-  .subscribe h1{
+.subscribe h1 {
     margin-bottom: 20px;
-  }
-  .subscribe input{
+}
+
+.subscribe input {
     padding: 12px;
     border-radius: 8px;
     background-color: black;
@@ -281,13 +308,14 @@
     font-size: 12px;
     display: block;
     margin-bottom: 20px;
-  }
-  .subscribe button{
+}
+
+.subscribe button {
     padding: 12px 20px;
     color: rgb(10, 123, 228);
     font-weight: 700;
     font-size: 16px;
     border-radius: 8px;
-  }
-  /* Footer Ends */
+}
 
+/* Footer Ends */
