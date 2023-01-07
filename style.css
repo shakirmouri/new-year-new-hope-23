@@ -1,54 +1,62 @@
-*{
+* {
     box-sizing: border-box;
     margin: 0px;
 }
-.header-content{
- height: 600px;
-   background-image: url(./images/banner/banner3.png);
-   background-size: cover;
-   position: relative;
+
+.header-content {
+    height: 600px;
+    background-image: url(./images/banner/banner3.png);
+    background-size: cover;
+    position: relative;
 }
-.header-title{
+
+.header-title {
     position: relative;
     color: white;
     top: 120px;
     left: 800px;
-   
+
 }
-.header-title h1{
+
+.header-title h1 {
     font-size: 40px;
     margin-bottom: 15px;
     font-weight: 700;
 }
-.header-title h3{
+
+.header-title h3 {
     font-weight: 400;
     font-size: 16px;
     margin-bottom: 10px;
 }
-.header-title button{
+
+.header-title button {
     position: relative;
     padding: 10px;
-    border: 0px ;
+    border: 0px;
     border-radius: 5px;
     background-color: white;
     left: 160px;
     color: #005FAC;
-    
+
 }
 
-.flexible-container{
+.flexible-container {
     display: flex;
     margin-bottom: 70px;
 
 }
-.half-width{
+
+.half-width {
     width: 50%;
     padding: 5%;
 }
-.half-width img{
+
+.half-width img {
     width: 80%;
 }
-.half-width h2{
+
+.half-width h2 {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     margin-top: 90px;
     margin-bottom: 12px;
@@ -56,18 +64,96 @@
     font-size: 30px;
     line-height: 40px;
 }
-.half-width h3{
+
+.half-width h3 {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 16px;
     font-weight: 400;
     margin-bottom: 25px;
 }
-.half-width h4{
+
+.half-width h4 {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 16px;
     font-weight: 400;
     margin-bottom: 14px;
 }
-.half-width h4 span{
+
+.half-width h4 span {
     color: rgba(23, 225, 140, 1);
+}
+
+.my-plan h1 {
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 47px;
+}
+.my-plan .plan-tile h1{
+    margin-bottom: 40px;
+}
+
+.pl-planning {
+    display: flex;
+    gap: 15px;
+    justify-content: space-between;
+    margin: 40px 60px;
+
+}
+.web-development img{
+   margin-left: 40px;
+}
+.web-development h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+}
+.web-development h4{
+    color: rgba(115, 114, 114, 1);
+    margin-left: 40px;
+}
+/* js */
+.java-script img{
+    margin-left: 40px;
+}
+.java-script h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    margin-left: 20px;
+}
+.java-script h4{
+    color: rgba(115, 114, 114, 1);
+    margin-left: 40px;
+}
+
+/* Smoke-habit */
+.smoke-habit img{
+    margin-left: 40px;
+}
+.smoke-habit h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    margin-left: 20px;
+}
+.smoke-habit h4{
+    color: rgba(115, 114, 114, 1);
+    margin-left: 40px;
+}
+/* E commerce */
+.e-commerce img{
+    margin-left: 40px;
+}
+.e-commerce h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    margin-left: 20px;
+}
+.e-commerce h4{
+    color: rgba(115, 114, 114, 1);
+    margin-left: 40px;
 }
