@@ -320,7 +320,7 @@ h3 {
 }
 
 /* Footer Ends */
-@media screen and (min-width:1500px) {
+@media screen and (min-width:900px) {
     * {
         box-sizing: border-box;
         margin: 0px;
